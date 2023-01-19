@@ -1,5 +1,6 @@
 {
   "name": "park-nyc",
+  "homepage": "http://jdeflorio.github.io/park-NYC",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
