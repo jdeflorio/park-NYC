@@ -10,11 +10,9 @@ function App() {
   const [showLocations, setShowLocations] = useState(false);
   const [parkingSpotData, setParkingSpotData] = useState(null);
 
-  console.log(parkingSpotData);
-
   return (
     <div className="App">
-      <NavBar></NavBar>
+      <NavBar setShowLocations={setShowLocations}></NavBar>
       {showLocations ? (
         <ParkingLocations locations={locations} setParkingSpotData={setParkingSpotData}></ParkingLocations>
       ) : (

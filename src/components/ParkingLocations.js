@@ -42,6 +42,8 @@ function ParkingLocations(props) {
             price={location.price}
             openings={location.openings}
             imgSrc={location.img}
+            description={location.description}
+            mapsSrc={location.mapsSrc}
             setParkingSpotData={props.setParkingSpotData}
           />
         ))}

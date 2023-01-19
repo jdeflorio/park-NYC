@@ -9,7 +9,6 @@ const LocationTileContainer = styled.div`
   overflow: hidden;
 
   &:hover {
-    border: 2px black solid;
     cursor: pointer;
   }
 `;
@@ -56,10 +55,10 @@ const LocationAvailability = styled.span`
 
 
 
-function LocationTile({name, price, openings, imgSrc, setParkingSpotData}) {
+function LocationTile({name, price, openings, imgSrc, description, mapsSrc, setParkingSpotData}) {
 
   const handleClick = () => {
-    setParkingSpotData({name, price, openings, imgSrc});
+    setParkingSpotData({name, price, openings, imgSrc, description, mapsSrc});
   }
 
   return(

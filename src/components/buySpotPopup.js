@@ -17,6 +17,7 @@ const PopUpContainer = styled.div`
 const PopUpBox = styled.div`
   position: relative;
   padding: 32px;
+  max-width: 75%;
   width: 60rem;
   height: 40rem;
   background: white;
@@ -43,6 +44,7 @@ const PurchaseForm = styled.form`
 `;
 
 const InputContainer = styled.div`
+  margin-top: 35px;
   display: grid;
   gap: 0px;
   row-gap: 0px;
@@ -65,11 +67,67 @@ const FormInput = styled.input`
   border-bottom: 1px solid black;
 `;
 
+const SubmitButton = styled.div`
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  width: 6rem;
+  border-radius: 5px;
+  background: #216EC3;
+  transition: background 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background: #2C5C91;
+  }
+  text-align: center;
+  color: white;
+`;
+
+const ParkingSpotDataContainer = styled.div`
+  height: 50%;
+  display: flex;
+`;
+
+const BgImg = styled.img`
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid #2C5C91;
+`
+
+const ParkingSpotInfo = styled.div`
+  margin-left: 10px;
+`;
+
+const GoogleMap = styled.iframe`
+  display: block;
+  width: "600";
+  height: "450";
+  border: 0;
+`
+
+const Title = styled.h1`
+  margin: 0;
+`
 
 
-function BuySpotPopup({name, price, openings, imgSrc, setParkingSpotData}) {
+
+
+
+function BuySpotPopup({ parkingSpotData, setParkingSpotData}) {
+
+  const {name, price, imgSrc, description, mapsSrc} = parkingSpotData;
 
   const handleCloseButton = () => {
+    setParkingSpotData(null);
+  }
+
+  const handleSubmit = () => {
     setParkingSpotData(null);
   }
 
@@ -77,6 +135,15 @@ function BuySpotPopup({name, price, openings, imgSrc, setParkingSpotData}) {
     <PopUpContainer>
       <PopUpBox>
         <CloseButton onClick={handleCloseButton}>X</CloseButton>
+        <ParkingSpotDataContainer>
+          <BgImg src={imgSrc}></BgImg>
+          <ParkingSpotInfo>
+            <Title>{name}</Title>
+            <h2>{price}</h2>
+            <p>{description}</p>
+            <GoogleMap src={mapsSrc}></GoogleMap>
+          </ParkingSpotInfo>
+        </ParkingSpotDataContainer>
         <PurchaseForm>
           <InputContainer>
             <InputLabel>First Name</InputLabel>
@@ -120,6 +187,7 @@ function BuySpotPopup({name, price, openings, imgSrc, setParkingSpotData}) {
             ></FormInput>
           </InputContainer>
         </PurchaseForm>
+        <SubmitButton onClick={handleSubmit}>Submit</SubmitButton>
       </PopUpBox>
     </PopUpContainer>
   )

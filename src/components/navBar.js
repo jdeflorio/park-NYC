@@ -15,12 +15,22 @@ const Title = styled.h1`
     font-size: 3rem;
     padding-left: 1rem;
     margin: 0;
+
+    &:hover {
+    cursor: pointer;
+  }
+  
 `;
 
-function NavBar(props) {
+function NavBar({ setShowLocations }) {
+
+  const handleClick = () => {
+    setShowLocations(false);
+  }
+
   return (
     <NavBarContainer>
-      <Title>ParkNYC</Title>  
+      <Title onClick={handleClick}>ParkNYC</Title>  
     </NavBarContainer>
   )
 }
