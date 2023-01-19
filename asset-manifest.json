@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d069f0c4.css",
+    "main.js": "/static/js/main.7a654678.js",
+    "static/js/787.37ba56b6.chunk.js": "/static/js/787.37ba56b6.chunk.js",
+    "static/media/1601-Broadway.jpg": "/static/media/1601-Broadway.f88dfdae8f8b2eef52fe.jpg",
+    "static/media/209-W-51st-St.jpg": "/static/media/209-W-51st-St.f9ba973a2a34a529fd6d.jpg",
+    "static/media/164-W-46th.jpg": "/static/media/164-W-46th.0f5068d304e77120abd5.jpg",
+    "static/media/120-W-45th-St.jpg": "/static/media/120-W-45th-St.94873d2b02398afa816a.jpg",
+    "static/media/235-W-50th-St.jpg": "/static/media/235-W-50th-St.fe12f3fa1c6bf2569a92.jpg",
+    "static/media/nycBackground.jpg": "/static/media/nycBackground.8f0ab08d85a91b8ee971.jpg",
+    "static/media/790-8th-Ave.png": "/static/media/790-8th-Ave.3763bb334efe3900225d.png",
+    "static/media/267-271-W-47th.jpg": "/static/media/267-271-W-47th.2e6ed84d1b68c1798e82.jpg",
+    "static/media/155W-47th.jpg": "/static/media/155W-47th.227c207db51b3dcef163.jpg",
+    "index.html": "/index.html",
+    "main.d069f0c4.css.map": "/static/css/main.d069f0c4.css.map",
+    "main.7a654678.js.map": "/static/js/main.7a654678.js.map",
+    "787.37ba56b6.chunk.js.map": "/static/js/787.37ba56b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d069f0c4.css",
+    "static/js/main.7a654678.js"
+  ]
+}
