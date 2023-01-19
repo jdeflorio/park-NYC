@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/park-nyc/static/css/main.d069f0c4.css",
-    "main.js": "/park-nyc/static/js/main.80d25ab4.js",
-    "static/js/787.37ba56b6.chunk.js": "/park-nyc/static/js/787.37ba56b6.chunk.js",
-    "static/media/1601-Broadway.jpg": "/park-nyc/static/media/1601-Broadway.f88dfdae8f8b2eef52fe.jpg",
-    "static/media/209-W-51st-St.jpg": "/park-nyc/static/media/209-W-51st-St.f9ba973a2a34a529fd6d.jpg",
-    "static/media/164-W-46th.jpg": "/park-nyc/static/media/164-W-46th.0f5068d304e77120abd5.jpg",
-    "static/media/120-W-45th-St.jpg": "/park-nyc/static/media/120-W-45th-St.94873d2b02398afa816a.jpg",
-    "static/media/235-W-50th-St.jpg": "/park-nyc/static/media/235-W-50th-St.fe12f3fa1c6bf2569a92.jpg",
-    "static/media/nycBackground.jpg": "/park-nyc/static/media/nycBackground.8f0ab08d85a91b8ee971.jpg",
-    "static/media/790-8th-Ave.png": "/park-nyc/static/media/790-8th-Ave.3763bb334efe3900225d.png",
-    "static/media/267-271-W-47th.jpg": "/park-nyc/static/media/267-271-W-47th.2e6ed84d1b68c1798e82.jpg",
-    "static/media/155W-47th.jpg": "/park-nyc/static/media/155W-47th.227c207db51b3dcef163.jpg",
-    "index.html": "/park-nyc/index.html",
-    "main.d069f0c4.css.map": "/park-nyc/static/css/main.d069f0c4.css.map",
-    "main.80d25ab4.js.map": "/park-nyc/static/js/main.80d25ab4.js.map",
-    "787.37ba56b6.chunk.js.map": "/park-nyc/static/js/787.37ba56b6.chunk.js.map"
+    "main.css": "/park-NYC/static/css/main.d069f0c4.css",
+    "main.js": "/park-NYC/static/js/main.80e96841.js",
+    "static/js/787.37ba56b6.chunk.js": "/park-NYC/static/js/787.37ba56b6.chunk.js",
+    "static/media/1601-Broadway.jpg": "/park-NYC/static/media/1601-Broadway.f88dfdae8f8b2eef52fe.jpg",
+    "static/media/209-W-51st-St.jpg": "/park-NYC/static/media/209-W-51st-St.f9ba973a2a34a529fd6d.jpg",
+    "static/media/164-W-46th.jpg": "/park-NYC/static/media/164-W-46th.0f5068d304e77120abd5.jpg",
+    "static/media/120-W-45th-St.jpg": "/park-NYC/static/media/120-W-45th-St.94873d2b02398afa816a.jpg",
+    "static/media/235-W-50th-St.jpg": "/park-NYC/static/media/235-W-50th-St.fe12f3fa1c6bf2569a92.jpg",
+    "static/media/nycBackground.jpg": "/park-NYC/static/media/nycBackground.8f0ab08d85a91b8ee971.jpg",
+    "static/media/790-8th-Ave.png": "/park-NYC/static/media/790-8th-Ave.3763bb334efe3900225d.png",
+    "static/media/267-271-W-47th.jpg": "/park-NYC/static/media/267-271-W-47th.2e6ed84d1b68c1798e82.jpg",
+    "static/media/155W-47th.jpg": "/park-NYC/static/media/155W-47th.227c207db51b3dcef163.jpg",
+    "index.html": "/park-NYC/index.html",
+    "main.d069f0c4.css.map": "/park-NYC/static/css/main.d069f0c4.css.map",
+    "main.80e96841.js.map": "/park-NYC/static/js/main.80e96841.js.map",
+    "787.37ba56b6.chunk.js.map": "/park-NYC/static/js/787.37ba56b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d069f0c4.css",
-    "static/js/main.80d25ab4.js"
+    "static/js/main.80e96841.js"
   ]
 }
